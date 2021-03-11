@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>-->
+
+    <group android:checkableBehavior="single">
+    <item android:title="Our Popular Courses">
+        <menu>
+            <item
+                android:id="@+id/Machine"
+                android:icon="@drawable/book"
+                android:title="Machine Learning" />
+            <item
+                android:id="@+id/Graphics"
+                android:icon="@drawable/book"
+                android:title="Graphics Designing" />
+            <item
+                android:id="@+id/Block"
+                android:icon="@drawable/book"
+                android:title="Block Chain" />
+            <item
+                android:id="@+id/Angular"
+                android:icon="@drawable/book"
+                android:title="Angular JS" />
+            <item
+                android:id="@+id/Phthon"
+                android:icon="@drawable/book"
+                android:title="Advanced Phython" />
+            <item
+                android:id="@+id/Big"
+                android:icon="@drawable/book"
+                android:title="Big Data" />
+            <item
+                android:id="@+id/Linux"
+                android:icon="@drawable/book"
+                android:title="Linux Device Drivers" />
+            <item
+                android:id="@+id/Ras"
+                android:icon="@drawable/book"
+                android:title="Raspberry Pie"
+                />
+            <item
+                android:id="@+id/Iot"
+                android:icon="@drawable/book"
+                android:title="Internet Of Things" />
+            <item
+                android:id="@+id/Artificial"
+                android:icon="@drawable/book"
+                android:title="Artificial Intelligence" />
+            <item
+                android:id="@+id/Mobile"
+                android:icon="@drawable/book"
+                android:title="Mobile App Development" />
+            <item
+                android:id="@+id/JAVA"
+                android:icon="@drawable/book"
+                android:title="JAVA/J2EE" />
+            <item
+                android:id="@+id/Hacking"
+                android:icon="@drawable/book"
+                android:title="Ceritified Ethical Hacking" />
+            <item
+                android:id="@+id/DataScience"
+                android:icon="@drawable/book"
+                android:title="Data Science with R/Phython" />
+            <item
+                android:id="@+id/Red"
+                android:icon="@drawable/book"
+                android:title="Red Hat Linux" />
+            <item
+                android:id="@+id/WebDesigning"
+                android:icon="@drawable/book"
+                android:title="Web Designing" />
+            <item
+                android:id="@+id/Business"
+                android:icon="@drawable/book"
+                android:title="Business Analysis" />
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/About"
+                android:icon="@drawable/about"
+                android:title="About Itronix" />
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/contact"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/map"
+                android:icon="@drawable/map"
+                android:title="Find us on Map" />
+            <item
+                android:id="@+id/Careers"
+                android:icon="@drawable/careers"
+                android:title="Careers" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/feedback"
+                android:title="Feedback" />
+
+        </menu>
+    </item>
+
+
+</group>
+</menu>
